@@ -3,3 +3,144 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@responsive{
+  .navbar{
+    @apply max-w-6xl mx-auto h-16;
+  }
+  .form-container{
+    @apply  bg-scroll bg-no-repeat bg-right w-full bg-contain bg-blue-100;
+    background-image: url(./images/sd-smile.png);
+  }
+}
+.content-navbar{
+  @apply px-8 py-6;
+}
+
+.navbar-responsive{
+  @apply w-full mx-auto h-16;
+}
+
+.logo{
+  @apply float-left pt-2 ;
+}
+
+.menu-navbar{
+  @apply float-right h-16;
+}
+
+.item-navbar{
+  @apply py-5 px-5 font-sans inline-block text-center text-gray-800 text-sm tracking-wide;
+  font-family: 'Poppins', sans-serif;
+}
+
+.item-navbar:hover{
+  @apply text-gray-500;
+}
+
+.btn-navbar{
+@apply mt-4 ml-5 h-8 py-1 px-8 text-white bg-blue-400 tracking-wider;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+font-family: 'Poppins', sans-serif;
+}
+
+.btn-navbar:hover{
+  @apply bg-blue-500;
+}
+
+.form-container-responsive{
+  @apply bg-blue-100;
+}
+
+.content-form{
+  @apply mx-auto;
+}
+
+.header-3{
+  @apply flex font-semibold text-gray-600 leading-tight;
+  font-family: 'Poppins',sans-serif;
+}
+
+.header-1{
+  @apply text-center justify-center flex font-semibold text-gray-700 leading-tight;
+  font-family: 'Poppins',sans-serif;
+}
+
+.body-form{
+  @apply bg-white shadow-xl rounded px-4 pt-6 pb-8 mb-4;
+}
+
+.header-2{
+  @apply pb-4 font-semibold text-gray-700 text-center leading-tight;
+  font-family: 'Poppins',sans-serif;
+}
+
+.par-2{
+  @apply text-sm text-gray-700 pb-6 text-center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.item-form{
+  @apply mb-8;
+}
+
+.input-name{
+  @apply h-12 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-name:focus{
+  @apply outline-none shadow-outline;
+}
+
+.btn-form{
+  @apply h-8 py-1 px-8 text-white bg-blue-400 tracking-wider outline-none cursor-pointer;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-form:hover{
+  @apply bg-blue-600;
+}
+
+.par-3{
+  @apply text-sm text-gray-700 pb-6 text-left;
+  font-family: 'Poppins', sans-serif;
+}
+
+//responsive
+
+.dropdown {
+	@apply relative;
+}
+
+.dropdown-content {
+	@apply bg-white z-50 w-64 absolute rounded-sm shadow hidden;
+	right: 32px;
+}
+
+.dropbtn:focus{
+	@apply outline-none;
+}
+
+.dropdown-content a.item-menu {
+	@apply flex;
+}
+
+.dropdown-content .btn-navbar-dropdown {
+	@apply w-4/5 block text-center mb-2 mx-auto;
+}
+
+
+.dropdown .dropbtn:focus + .dropdown-content , .dropdown .dropdown-content:hover{
+	@apply block;
+}
+
+.btn-navbar-dropdown{
+@apply mt-4 h-8 py-1 px-8 text-white bg-blue-400 tracking-wider;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+font-family: 'Poppins', sans-serif;
+}
