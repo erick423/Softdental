@@ -63,7 +63,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .header-1{
-  @apply text-center justify-center flex font-semibold text-gray-700 leading-tight;
+  @apply text-center justify-center flex font-semibold text-gray-700 leading-tight pb-2;
   font-family: 'Poppins',sans-serif;
 }
 
@@ -106,7 +106,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .par-3{
-  @apply text-sm text-gray-700 pb-6 text-left;
+  @apply text-gray-700 pb-6 text-left;
   font-family: 'Poppins', sans-serif;
 }
 
