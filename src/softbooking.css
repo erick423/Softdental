@@ -1,0 +1,239 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@responsive{
+  .navbar{
+    @apply max-w-6xl mx-auto h-16;
+  }
+  .footer-l{
+    width: 35%;
+  }
+}
+.content-navbar{
+  @apply px-8 py-6;
+}
+
+.navbar-responsive{
+  @apply w-full mx-auto h-16;
+}
+
+.logo{
+  @apply float-left pt-2 ;
+}
+
+.menu-navbar{
+  @apply float-right h-16;
+}
+
+.item-navbar{
+  @apply py-5 px-5 font-sans inline-block text-center text-gray-800 text-sm tracking-wide;
+  font-family: 'Poppins', sans-serif;
+}
+
+.item-navbar:hover{
+  @apply text-gray-500;
+}
+
+.btn-navbar{
+@apply mt-4 ml-5 h-8 py-1 px-8 text-white bg-blue-400 tracking-wider;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+font-family: 'Poppins', sans-serif;
+}
+
+.btn-navbar:hover{
+  @apply bg-blue-500;
+}
+
+.content-form{
+  @apply mx-auto;
+}
+
+.label{
+  @apply text-center text-gray-800;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-1{
+  @apply text-center text-gray-800 text-xl py-3;
+  font-family: 'Poppins', sans-serif;
+}
+
+.body-form{
+  @apply bg-white shadow-xl px-4 pt-2 pb-8 mb-4;
+  max-height: 500px;
+  border-radius: 15px;
+}
+
+.left-form{
+  @apply w-1/2;
+}
+
+.right-form{
+  @apply w-1/2;
+}
+
+.name-form, .mail-form, .contact-number, .service-option, .date, .schedule{
+  @apply px-2 py-2;
+}
+
+.input-name{
+  @apply h-12 bg-white shadow appearance-none border mb-4 w-full rounded py-2 px-3 text-gray-700 leading-tight;
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-name:focus{
+  @apply outline-none shadow-outline;
+}
+
+.btn-form{
+  @apply h-8 mt-8 py-1 px-8 text-white bg-blue-400 tracking-wider outline-none cursor-pointer;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-form:hover{
+  @apply bg-blue-600;
+}
+
+.header-content{
+  @apply text-3xl text-gray-700 font-bold leading-tight tracking-wider;
+  font-family: 'Poppins', sans-serif;
+}
+
+.info-contact{
+  @apply p-4 mt-4 bg-blue-400;
+  border-bottom-right-radius: 100px;
+}
+
+.header-2{
+  @apply text-base text-gray-700 font-bold leading-tight tracking-wider;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-contact{
+  @apply text-base text-white font-medium leading-tight tracking-wider;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-options{
+  @apply flex pt-3 text-sm text-white font-medium leading-tight tracking-wider;
+  font-family: 'Poppins', sans-serif;
+}
+
+.adress{
+  @apply text-gray-800 text-sm;
+  font-family: 'Poppins',sans-serif;
+}
+
+.adress:hover{
+  @apply underline;
+}
+
+.icon-contact{
+  fill: white;
+  @apply mr-2;
+}
+
+.dropdown {
+	@apply relative;
+}
+
+.dropdown-content {
+	@apply bg-white z-50 w-64 absolute rounded-sm shadow hidden;
+	right: 1px;
+}
+
+.dropbtn:focus{
+	@apply outline-none;
+}
+
+.dropdown-content .btn-navbar-dropdown {
+	@apply w-4/5 block text-center mb-2 mx-auto;
+}
+
+.dropdown .dropbtn:focus + .dropdown-content , .dropdown .dropdown-content:hover{
+	@apply block;
+}
+
+.btn-navbar-dropdown{
+@apply mt-4 h-8 py-1 px-8 text-white bg-blue-400 tracking-wider;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+font-family: 'Poppins', sans-serif;
+}
+
+.footer{
+  background-color: #222B41;
+}
+
+.footer-container{
+  @apply w-full mx-auto pt-8 pb-4;
+}
+
+.footer-left{
+  @apply w-full;
+}
+
+.footer-r{
+  @apply pl-16;
+  width: 65%;
+}
+
+.par-4{
+   @apply text-xs text-gray-400 py-3 pr-5 tracking-wider;
+   font-family: 'Poppins', sans-serif;
+}
+
+.par-5{
+   @apply text-xs text-gray-400 py-1 text-center;
+   font-family: 'Poppins', sans-serif;
+}
+
+.services, .menu, .contact{
+  @apply flex text-xs text-gray-500;
+}
+
+.heading-6{
+  @apply text-sm text-white font-bold pb-2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading-7{
+  @apply text-sm text-gray-500 font-bold text-center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contacts{
+    @apply justify-around py-2;
+}
+
+.svg-contact{
+  @apply inline-flex mx-2;
+  fill: #a0aec0;
+  stroke: #a0aec0;
+}
+
+.svg-calendar{
+  @apply inline-flex mx-2 -mt-2;
+  fill: #2D3748;
+  stroke: #a0aec0;
+}
+
+.svg-contact:hover {
+   fill: #fff;
+   stroke: #fff;
+}
+
+.nav-footer{
+  background-color: #202732;
+}
+
+.par-6{
+   @apply text-xs text-gray-200 py-3 tracking-wider;
+   font-family: 'Poppins', sans-serif;
+}
