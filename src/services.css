@@ -1,0 +1,225 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@responsive{
+  .navbar{
+    @apply max-w-6xl mx-auto h-16;
+  }
+
+  .footer-l{
+    width: 35%;
+  }
+
+  .bg-smile-responsive{
+    @apply bg-contain bg-no-repeat bg-scroll -mt-16;
+    background-image: url(./assets/bg-services-page.png);
+  }
+
+  .container{
+    @apply w-4/5 bg-transparent mx-auto;
+    height: 700px;
+  }
+  .header-h{
+    font-size: 120px;
+  }
+}
+
+.content-navbar{
+  @apply px-8 py-6;
+}
+
+.navbar-responsive{
+  @apply w-full mx-auto h-16;
+}
+
+.logo{
+  @apply float-left pt-2 ;
+}
+
+.menu-navbar{
+  @apply float-right h-16;
+}
+
+.item-navbar{
+  @apply py-5 px-5 font-sans inline-block text-center text-gray-800 text-sm tracking-wide;
+  font-family: 'Poppins', sans-serif;
+}
+
+.item-navbar:hover{
+  @apply text-gray-500;
+}
+
+.btn-navbar{
+@apply mt-4 ml-5 h-8 py-1 px-8 text-white bg-blue-400 tracking-wider;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+font-family: 'Poppins', sans-serif;
+}
+
+.btn-navbar:hover{
+  @apply bg-blue-500;
+}
+
+.dropdown {
+	@apply relative;
+}
+
+.dropdown-content {
+	@apply bg-white z-50 w-64 absolute rounded-sm shadow hidden;
+	right: 1px;
+}
+
+.dropbtn:focus{
+	@apply outline-none;
+}
+
+.dropdown-content .btn-navbar-dropdown {
+	@apply w-4/5 block text-center mb-2 mx-auto;
+}
+
+.dropdown .dropbtn:focus + .dropdown-content , .dropdown .dropdown-content:hover{
+	@apply block;
+}
+
+.btn-navbar-dropdown{
+@apply mt-4 h-8 py-1 px-8 text-white bg-blue-400 tracking-wider;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+font-family: 'Poppins', sans-serif;
+}
+
+.container-responsive{
+  @apply w-4/5 bg-transparent mx-auto;
+}
+
+.above-title{
+  @apply text-gray-600 leading-none tracking-wide py-1;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-1{
+  @apply text-gray-800 font-semibold leading-none tracking-wide;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-1-2{
+  @apply text-gray-800 font-semibold leading-none tracking-wide;
+  font-family: 'Poppins', sans-serif;
+}
+
+.par-1{
+  @apply pt-4 pb-8 text-sm text-gray-600 text-justify;
+}
+
+.btn-description{
+@apply  mt-8 h-8 py-2 px-8 text-white tracking-wider;
+background-color: #32C242;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+font-family: 'Poppins', sans-serif;
+}
+
+.btn-description:hover{
+  background-color: #39D54D;
+}
+
+.services-container{
+  @apply w-5/6 mx-auto bg-transparent mt-6;
+}
+
+.subtitle{
+  @apply text-center text-gray-700 font-semibold text-lg;
+  font-family: 'Poppins',sans-serif;
+}
+
+.description-services{
+  @apply text-center text-sm text-gray-600 mx-auto leading-tight;
+}
+
+.info-services{
+  @apply my-10;
+}
+
+.service{
+  @apply  bg-white text-justify text-sm text-gray-700 leading-tight;
+  font-family: 'Poppins',sans-serif;
+  border-bottom-right-radius: 100px;
+}
+
+.service:hover{
+  @apply shadow-lg;
+}
+
+.footer{
+  background-color: #222B41;
+}
+
+.footer-container{
+  @apply w-full mx-auto pt-8 pb-4;
+}
+
+.footer-left{
+  @apply w-full;
+}
+
+.footer-r{
+  @apply pl-16;
+  width: 65%;
+}
+
+.par-4{
+   @apply text-xs text-gray-400 py-3 pr-5 tracking-wider;
+   font-family: 'Poppins', sans-serif;
+}
+
+.par-5{
+   @apply text-xs text-gray-400 py-1 text-center;
+   font-family: 'Poppins', sans-serif;
+}
+
+.services, .menu, .contact{
+  @apply flex text-xs text-gray-500;
+}
+
+.heading-6{
+  @apply text-sm text-white font-bold pb-2;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading-7{
+  @apply text-sm text-gray-500 font-bold text-center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contacts{
+    @apply justify-around py-2;
+}
+
+.svg-contact{
+  @apply inline-flex mx-2;
+  fill: #a0aec0;
+  stroke: #a0aec0;
+}
+
+.svg-calendar{
+  @apply inline-flex mx-2 -mt-2;
+  fill: #2D3748;
+  stroke: #a0aec0;
+}
+
+.svg-contact:hover {
+   fill: #fff;
+   stroke: #fff;
+}
+
+.nav-footer{
+  background-color: #202732;
+}
+
+.par-6{
+   @apply text-xs text-gray-200 py-3 tracking-wider;
+   font-family: 'Poppins', sans-serif;
+}
