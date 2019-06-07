@@ -3,132 +3,79 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./softbooking.css">
+    <link rel="stylesheet" href="./service-detail.css">
     <link rel="icon" type="image/png" href="./sd-favi.png" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
     <title>Clínica Dental en Pachuca</title>
   </head>
   <body>
     <div class="hero-container bg-blue-100 h-full">
-      <div class="content-navbar">
-        <div class="navbar-responsive lg:navbar">
-          <div class="logo">
-            <a href="./index.html"><img src="./images/softdental-logo.svg" alt="softdental logo"></a>
-          </div>
-          <div class="menu-navbar hidden lg:flex">
-            <a href="./services.html" class="item-navbar">Tratamientos y Costos</a>
-            <a href="#" class="item-navbar">Promociones</a>
-            <a href="#" class="item-navbar">Planes Dentales</a>
-            <a href="#" class="btn-navbar">Contacto</a>
-          </div>
-          <div class="dropdown lg:hidden float-right mt-2">
-            <a tabindex="0" class="dropbtn">
-              <img src="./images/ooo-icon.png" />
-            </a>
-            <div class="dropdown-content">
-              <a href="#" class="item-navbar w-full">Tratamientos y Costos</a>
-              <a href="#" class="item-navbar w-full">Promociones</a>
-              <a href="#" class="item-navbar w-full">Planes Dentales</a>
-              <a href="#" class="btn-navbar-dropdown hover:bg-blue-600 w-full">Contacto</a>
+      <div class="bg-smile-responsive mt-0 md:-mt-24 lg:-mt-56 bg-responsive lg:bg-transparent">
+        <div class="content-navbar">
+          <div class="navbar-responsive lg:navbar md:mt-24 lg:mt-56">
+            <div class="logo">
+              <a href="./index.html"><img src="./assets/softdental-logo-light.svg" alt="softdental logo"></a>
+            </div>
+            <div class="menu-navbar hidden lg:flex">
+              <a href="./services.html" class="item-navbar">Tratamientos y Costos</a>
+              <a href="#" class="item-navbar">Promociones</a>
+              <a href="#" class="item-navbar">Planes Dentales</a>
+              <a href="#" class="btn-navbar">Contacto</a>
+            </div>
+            <div class="dropdown lg:hidden float-right mt-2">
+              <a tabindex="0" class="dropbtn">
+                <svg class="drop-icon mt-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 192 192" width="30px" height="30px"><path d="M0,192v-192h192v192z" fill="none"/><path d="M24,88h144v16h-144z"/><path d="M24,40h144v16h-144z"/><path d="M24,136h144v16h-144z"/></svg>
+              </a>
+              <div class="dropdown-content">
+                <a href="#" class="item-navbar-dropdown w-full">Tratamientos y Costos</a>
+                <a href="#" class="item-navbar-dropdown w-full">Promociones</a>
+                <a href="#" class="item-navbar-dropdown w-full">Planes Dentales</a>
+                <a href="#" class="btn-navbar-dropdown hover:bg-blue-600 w-full">Contacto</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="form-container mt-6 mb-16">
-        <div class="content-form lg:flex w-11/12">
-          <div class="form w-full md:w-4/5 lg:w-5/12 mx-auto">
-            <form class="body-form">
-              <h1 class="header-1"><svg class="svg-calendar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20px" height="20px"><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>Reserva en línea</h1>
-              <div class="flex">
-                <div class="left-form">
-                  <div class="name-form">
-                    <label for="name" class="label text-xs md:text-sm lg:text-base">*Nombre completo</label>
-                    <input required id="name" class="input-name text-xs md:text-base" type="text" placeholder="Dulce Softdental">
-                  </div>
-                  <div class="contact-number">
-                    <label for="mail" class="label text-xs md:text-sm lg:text-base">*Numero de Contacto</label>
-                    <input required id="mail" class="input-name text-xs md:text-base" type="number" placeholder="5512345678">
-                  </div>
-                  <div class="date">
-                    <label for="mail" class="label text-xs md:text-sm lg:text-base">*Fecha</label>
-                    <input required id="mail" class="input-name text-xs md:text-base" type="date" placeholder="Número de contacto">
-                  </div>
-                </div>
-                <div class="right-form">
-                  <div class="mail-form">
-                    <label for="mail" class="label text-xs md:text-sm lg:text-base">*Correo Electrónico</label>
-                    <input required id="mail" class="input-name text-xs md:text-base" type="email" placeholder="softdental@mail.com">
-                  </div>
-                  <div class="service-option">
-                    <label for="service-op" class="label text-xs md:text-sm lg:text-base">*Servicio</label>
-                    <select class="input-name text-xs md:text-base" id="service-op" name="service-op">
-                      <option value="Servicio 1">Servicio 1</option>
-                      <option value="Servicio 2">Servicio 2</option>
-                      <option value="Servicio 3">Servicio 3</option>
-                      <option value="Servicio 4">Servicio 4</option>
-                      <option value="Servicio 5">Servicio 5</option>
-                    </select>
-                  </div>
-                  <div class="schedule">
-                    <label for="schedule" class="label text-xs md:text-sm lg:text-base">*Correo Electrónico</label>
-                    <select class="input-name text-xs md:text-base" id="schedule" name="schedule">
-                      <option value="horario1">9:00 a 9:30 am</option>
-                      <option value="horario2">9:30 a 10:00 am</option>
-                      <option value="horario3">10:00 a 10:30 am</option>
-                      <option value="horario4">10:30 a 11:00 am</option>
-                      <option value="horario5">11:00 a 11:30 am</option>
-                      <option value="horario6">11:30 a 12:00 pm</option>
-                      <option value="horario7">12:00 a 12:30 pm</option>
-                      <option value="horario8">12:30 a 13:00 pm</option>
-                      <option value="horario9">13:00 a 13:30 pm</option>
-                      <option value="horario10">13:30 a 14:00 pm</option>
-                    </select>
-                  </div>
-                </div>
-              </div>
-              <div class="flex justify-center">
-                <input type="submit" name="submit" value="Hacer una cita" class="btn-form">
-              </div>
-            </form>
+        <div class="container-responsive lg:container">
+          <div class="links-folders mx-auto w-full lg:w-2/5 lg:mt-6 text-center lg:text-left">
+            <a href="index.html" class="link">Inicio</a>
+            <p class="text-white">/</p>
+            <a href="services.html" class="link">Servicios</a>
+            <p class="text-white">/</p>
+            <a href="soft-service-detail.html" class="link">Ortodoncia</a>
           </div>
-          <div class="contacts-container w-full md:w-10/12 mt-10 lg:mt-0 lg:w-2/5 m-auto">
-            <div class="content-contacts">
-              <h1 class="header-content md:text-6xl text-center lg:text-left">PRESUME <br/>TU SONRISA</h1>
-              <h2 class="header-2 text-center lg:text-left">Haz una cita<span class="text-blue-500 whitespace-pre"> hoy </span></h2>
-              <div class="info-contact w-full md:w-10/12 mx-auto lg:mx-0">
-                <h1 class="header-contact">Contáctanos</h1>
-                <p class="contact-options">
-                  <svg class="icon-contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18px" height="18px">
-                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/>
-                  </svg>
-                  Lun a Vier. de 9:00 a 19:00 hrs.
-                </p>
-                <p class="contact-options">
-                  <svg class="icon-contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18px" height="18px">
-                    <path d="M476.5 22.9L382.3 1.2c-21.6-5-43.6 6.2-52.3 26.6l-43.5 101.5c-8 18.6-2.6 40.6 13.1 53.4l40 32.7C311 267.8 267.8 311 215.4 339.5l-32.7-40c-12.8-15.7-34.8-21.1-53.4-13.1L27.7 329.9c-20.4 8.7-31.5 30.7-26.6 52.3l21.7 94.2c4.8 20.9 23.2 35.5 44.6 35.5C312.3 512 512 313.7 512 67.5c0-21.4-14.6-39.8-35.5-44.6zM69.3 464l-20.9-90.7 98.2-42.1 55.7 68.1c98.8-46.4 150.6-98 197-197l-68.1-55.7 42.1-98.2L464 69.3C463 286.9 286.9 463 69.3 464z"/>
-                  </svg>
-                  771 123 456 78
-                </p>
-                <p class="contact-options">
-                  <svg class="icon-contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="18px" height="18px">
-                    <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
-                  </svg>
-                  771 456 789 00
-                </p>
-                <p class="contact-options">
-                  <svg class="icon-contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18px" height="18px">
-                    <path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/>
-                  </svg>
-                  servicios.sofdental@gmail.com
-                </p>
-                <p class="contact-options">
-                  <svg class="icon-contact" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 512" width="18px" height="18px">
-                    <path d="M144 0C64.47 0 0 64.47 0 144c0 71.31 51.96 130.1 120 141.58v197.64l16.51 24.77c3.56 5.34 11.41 5.34 14.98 0L168 483.22V285.58C236.04 274.1 288 215.31 288 144 288 64.47 223.53 0 144 0zm0 240c-52.94 0-96-43.07-96-96 0-52.94 43.06-96 96-96s96 43.06 96 96c0 52.93-43.06 96-96 96zm0-160c-35.28 0-64 28.7-64 64 0 8.84 7.16 16 16 16s16-7.16 16-16c0-17.64 14.34-32 32-32 8.84 0 16-7.16 16-16s-7.16-16-16-16z"/>
-                  </svg>
-                  Blv. G. Ramón Bonfil 16
-                </p>
-                <a href="#" class="adress pl-2 md:pl-6">Ver Dirección en Google Maps</a>
-              </div>
+          <div class="description-container mx-auto w-full lg:w-2/5 lg:mt-6 text-center lg:text-left pb-8">
+            <h1 class="head-1">Ortodoncia</h1>
+            <p class="par-1 text-white pt-4 md:pt-4 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla tortor nec urna iaculis, et tempus ante gravida. Morbi ornare neque vel blandit molestie. Nam ultricies, sapien vel facilisis hendrerit, velit purus tristique purus, vel lacinia sem ligula in massa.</p>
+            <a href="#" class="btn-description">Reserva Ahora</a>
+          </div>
+        </div>
+      </div>
+      <div class="services-container">
+        <div class="info-services lg:flex">
+          <div class="service bg-blue-900 w-11/12 md:w-4/5 lg:w-1/3 my-6 mx-auto lg:mx-4 lg:my-0">
+            <p class="text-white text-xl font-semibold text-center pt-2 pb-8">Acerca del tratamiento</p>
+            <p class="px-8 text-xs md:text-sm text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla tortor nec urna iaculis, et tempus ante gravida.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla tortor nec urna iaculis, et tempus ante gravida.</p>
+            <p class="pt-8 px-8 text-sm text-white">Desde <br/><span class="text-3xl font-semibold">$12,500</span></p>
+            <a href="#" class="btn-date w-48 mx-auto md:w-64 md:text-lg md:ml-8">Reserva Ahora</a>
+          </div>
+          <div class="service bg-white w-11/12 md:w-4/5 lg:w-1/3 my-6 mx-auto lg:mx-4 lg:my-0">
+            <p class="flex text-gray-700 text-sm lg:text-lg justify-center font-semibold py-2"><img class="pr-2" src="./images/smile.svg" alt="smile.icon">Beneficios de la ortodoncia</p>
+            <ul class="pt-8">
+              <li class="py-3 text-xs flex"><img class="pr-2" src="./images/check.svg" alt="check-icon">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li class="py-3 text-xs flex"><img class="pr-2" src="./images/check.svg" alt="check-icon">Vivamus maximus diam eget nulla commodo</li>
+              <li class="py-3 text-xs flex"><img class="pr-2" src="./images/check.svg" alt="check-icon">Nulla molestie libero vulputate laoreet iaculis.</li>
+              <li class="py-3 text-xs flex"><img class="pr-2" src="./images/check.svg" alt="check-icon">Nam fermentum sapien lorem, in tempus neque viverra a. </li>
+              <li class="py-3 text-xs flex"><img class="pr-2" src="./images/check.svg" alt="check-icon">Pellentesque volutpat, est sed varius accumsan</li>
+            </ul>
+          </div>
+          <div class="flex-col w-11/12 md:w-4/5 lg:w-1/3 my-6 mx-auto lg:mx-4 lg:my-0 bg-blue-100">
+            <div class="service bg-white mb-8">
+              <p class="flex text-gray-700 text-sm lg:text-lg justify-center font-semibold py-2"><img class="pr-2" src="./images/stethoscope.svg" alt="smile.icon">¿Cuál es el procedimiento?</p>
+              <p class="px-8 text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla tortor nec urna iaculis, et tempus ante gravida.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla tortor nec urna iaculis, et tempus ante gravida.</p>
+            </div>
+            <div class="service bg-white">
+              <p class="flex text-gray-700 text-sm lg;text-lg justify-center font-semibold py-2"><img class="pr-2" src="./images/heartbeat.svg" alt="smile.icon">¿Soy apto para el tratamiento?</p>
+              <p class="px-8 text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla tortor nec urna iaculis, et tempus ante gravida.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla tortor nec urna iaculis, et tempus ante gravida.</p>
             </div>
           </div>
         </div>
