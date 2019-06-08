@@ -1,0 +1,26 @@
+{
+  "name": "softdental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^9.6.0",
+    "postcss-modules": "^1.4.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erick423/Softdental.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erick423/Softdental/issues"
+  },
+  "homepage": "https://github.com/erick423/Softdental#readme"
+}
