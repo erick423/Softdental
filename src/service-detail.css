@@ -18,7 +18,7 @@
   }
 
   .bg-smile-responsive{
-    @apply bg-contain bg-no-repeat;
+    @apply bg-no-repeat;
     background-image: url(./assets/bg-service-detail.png);
   }
 
@@ -29,6 +29,17 @@
   .header-h{
     font-size: 120px;
   }
+}
+html,body{
+  @apply h-full;
+}
+
+body{
+  @apply flex-col flex;
+}
+
+.hero-container{
+  flex: 1 1 auto;
 }
 
 .content-navbar{
@@ -143,7 +154,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .services-container{
-  @apply w-11/12 mx-auto bg-transparent mt-6;
+  @apply max-w-6xl mx-auto w-11/12 mx-auto bg-transparent mt-6;
 }
 
 .info-services{
