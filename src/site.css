@@ -9,13 +9,22 @@
     @apply max-w-6xl mx-auto h-16;
   }
   .form-container{
-    @apply  bg-scroll bg-no-repeat bg-right w-full bg-contain bg-blue-100;
+    @apply  bg-scroll bg-no-repeat bg-right max-w-6xl mx-auto bg-contain bg-blue-100;
     background-image: url(./images/sd-smile.png);
   }
   .footer-l{
     width: 35%;
   }
 }
+
+html,body{
+  @apply h-full;
+}
+
+.first-container{
+  flex: 1 1 auto;
+}
+
 .content-navbar{
   @apply px-8 py-6;
 }

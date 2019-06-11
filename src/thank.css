@@ -16,6 +16,15 @@
     width: 35%;
   }
 }
+
+html, body{
+  @apply h-full;
+}
+
+body{
+  @apply flex-col flex
+}
+
 .content-navbar{
   @apply px-8 py-6;
 }

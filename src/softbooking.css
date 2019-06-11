@@ -12,6 +12,19 @@
     width: 35%;
   }
 }
+
+html, body{
+  @apply h-full;
+}
+
+body{
+  @apply flex flex-col;
+}
+
+.hero-container{
+  flex: 1 1 auto;
+}
+
 .content-navbar{
   @apply px-8 py-6;
 }
